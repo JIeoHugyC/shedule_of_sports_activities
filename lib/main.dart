@@ -1,11 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async{
+
+  await Firebase.initializeApp();
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+   MyApp({Key? key}) : super(key: key){
+
+  }
 
   // This widget is the root of your application.
   @override
@@ -33,7 +39,15 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
+  void _incrementCounter() async {
+    try {
+      var user = await FirebaseAuth.instance
+          .signInWithEmailAndPassword(
+          email: 'Leonid999@yandex.ru', password: '_password');
+    }
+    catch (error) {
+      print(error);
+    }
     setState(() {
       _counter++;
     });
@@ -69,3 +83,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
