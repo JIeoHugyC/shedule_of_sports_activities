@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "265698048012",
+    "project_id": "schedule-of-sports-activities",
+    "storage_bucket": "schedule-of-sports-activities.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265698048012:android:4937556486cb837361d629",
+        "android_client_info": {
+          "package_name": "com.kabanovl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265698048012-spj4c5gd2cfhpu1ilcs9fpl4na7v0ua2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLAfS3-tFnGs9pqo-_FuCBJLk85M983YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265698048012-spj4c5gd2cfhpu1ilcs9fpl4na7v0ua2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265698048012:android:04fe39457f9d72ba61d629",
+        "android_client_info": {
+          "package_name": "com.kabanovl.shedule_of_sports_activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265698048012-spj4c5gd2cfhpu1ilcs9fpl4na7v0ua2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLAfS3-tFnGs9pqo-_FuCBJLk85M983YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265698048012-spj4c5gd2cfhpu1ilcs9fpl4na7v0ua2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
